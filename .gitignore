@@ -1,0 +1,55 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Secrets and private keys
+*.key
+*.pem
+*.p12
+*.pfx
+private.key
+secrets.json
+.vault-token
+credentials.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node/npm
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Sensitive data
+audit-logs-sensitive/
+**/secrets/
+**/private/
+
+# Git
+.git-credentials
